@@ -3,9 +3,9 @@ import { FaCar, FaBell, FaTools, FaBook, FaWrench, FaTruck, FaMapMarkerAlt, FaFl
 
 const HomePage = () => {
   return (
-    <div className="min-h-screen bg-gray-50 pb-20">
+    <div className="min-h-screen max-w-full mx-auto px-10 pt-5 bg-gray-50 pb-20">
       {/* Header */}
-      <header className="bg-white shadow-lg p-4 flex items-center justify-between">
+      <header className="bg-white shadow-lg p-4 rounded-md flex items-center justify-between">
         <div className="flex items-center space-x-3">
           <FaCar size={32} className="text-yellow-500" />
           <div>
