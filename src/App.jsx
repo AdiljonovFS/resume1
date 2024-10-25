@@ -7,7 +7,7 @@ import SettingsPage from './components/settings/Settings';
 import ProfileEdit from './components/settings/ProfileEdit';
 
 import Evakuvator from './components/pages/evakuvator/evakuvator';
-import Jarimalar from './components/pages/jarimalar/Jarimalar';
+import Jarimalar from './components/pages/Jarimalar/Jarimalar';
 import CarDetails from './components/pages/avtamobilBolimi/abvtombilbolimi';
 import CarDetailingPage from './components/pages/avtamobilBolimi/qaytajixozlash';
 import JarimalarningIchi from './components/pages/jarimalar/JarimalarningIchi';
@@ -40,7 +40,7 @@ function App() {
           <Route path="/cardetails" element={<CarDetails />} />
           <Route path="/jixozlash" element={<CarDetailingPage />} />
           <Route path="/evakuvator" element={<Evakuvator />} />
-          <Route path="/jarimalar" element={<Jarimalar />} />
+          <Route path="/jarimalar" element={<Jarimalar   />} />
           <Route path="/jarimalar/:id" element={<JarimalarningIchi />} />
           {/* TimeLine */}
           <Route path="/sugurta" element={<Sugurta />} />
