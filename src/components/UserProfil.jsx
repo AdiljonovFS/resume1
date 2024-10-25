@@ -2,36 +2,37 @@ import React from "react";
 
 const UserProfile = () => {
   return (
-    <div className="bg-gray-100 min-h-screen">
-      <div className="max-w-full mx-auto px-4 bg-white rounded-lg shadow-md overflow-hidden">
+    <div className="min-h-screen max-w-full mx-auto md:px-40 px-10 pt-5 pb-20">
+      <div className="rounded-lg shadow-md overflow-hidden">
         {/* Profile header */}
-        <div className="bg-yellow-300 relative rounded-2xl mx-4 shadow-2xl">
-          <div className="absolute left-1/2 transform -translate-x-1/2 -top-12 w-24 h-24 bg-white rounded-full border-4 border-yellow-300">
+        <div className="bg-bgcolor relative rounded-2xl mx-4 shadow-2xl">
+          <div className="absolute left-1/2 transform -translate-x-1/2 -top-12 w-24 h-24 bg-bgcolor rounded-full border-4 border-yellow-300">
             <img
               src="profile-picture.jpg"
               alt="User"
               className="w-full h-full object-cover rounded-full"
             />
           </div>
-          <div className="text-center mt-16 pt-12">
+          <div className="text-center mt-16 pt-12 ">
             <h2 className="text-xl font-bold text-gray-800">
               Azamjon Alijonov Palonchiyev
             </h2>
             <p className="text-gray-600">+998 90 123 45 67</p>
             <div className="flex justify-center p-2">
-              <span className="px-4 py-1 bg-purple-500 text-white rounded-lg">
+              <button className="px-28 py-3 bg-oneid  rounded-lg">
                 ONE ID
-              </span>
-              <span className="ml-2 px-4 py-1 bg-green-500 text-white rounded-lg">
+
+              </button>
+            </div>
+            <span className=" text-tasdiq">
                 Tasdiqlangan
               </span>
-            </div>
           </div>
         </div>
 
         {/* Passport information */}
-        <div className="px-4 py-4 space-y-4">
-          <h3 className="font-bold text-gray-800">Passport ma'lumotlari</h3>
+        <div className="px-4 py-4 space-y-4 text-black">
+          <h3 className="font-bold text-gray">Passport ma'lumotlari</h3>
           <div className="grid grid-cols-1 gap-2">
             <InfoRow label="Tug'ilgan sana" value="29.11.2003" />
             <InfoRow label="JShShIR" value="928741927431" />
@@ -44,7 +45,7 @@ const UserProfile = () => {
           </div>
 
           {/* Permanent address */}
-          <h3 className="font-bold text-gray-800">Doimiy ro'yxatdan o'tgan manzili</h3>
+          <h3 className="font-bold text-gray">Doimiy ro'yxatdan o'tgan manzili</h3>
           <div className="grid grid-cols-1 gap-2">
             <InfoRow label="Mamlakat" value="O'zbekiston Respublikasi" />
             <InfoRow label="Hudud" value="Sirdaryo Viloyati" />
@@ -54,7 +55,7 @@ const UserProfile = () => {
           </div>
 
           {/* Driving license */}
-          <h3 className="font-bold text-gray-800">Haydovchilik Guvohnomasi</h3>
+          <h3 className="font-bold text-gray">Haydovchilik Guvohnomasi</h3>
           <div className="grid grid-cols-1 gap-2">
             <InfoRow label="Berilgan sana" value="03.10.2021" />
             <InfoRow label="Amal qilish muddati" value="03.10.2031" />
@@ -63,7 +64,7 @@ const UserProfile = () => {
           </div>
 
           {/* Vehicle categories */}
-          <h3 className="font-bold text-gray-800">Avtomobil toifasi</h3>
+          <h3 className="font-bold text-gray">Avtomobil toifasi</h3>
           <div className="grid grid-cols-3 gap-2">
             <InfoRow label="A" value="03.10.2025" />
             <InfoRow label="B" value="03.10.2025" />

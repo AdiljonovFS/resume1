@@ -5,15 +5,15 @@ import { Link, useLocation } from "react-router-dom";
 const NavButton = ({ icon, label, to, isActive }) => (
   <Link to={to}>
     <button
-      className={`flex flex-col items-center justify-center text-gray-700 w-20 h-20 rounded-full transition-all duration-300 ease-in-out relative ${
-        isActive
-          ? "bg-white text-yellow-500 transform -translate-y-2 shadow-4xl absolute -top-8 "
-          : "text-white"
-      }`}
+      className={`flex flex-col items-center justify-center text-gray-700 h-20  rounded-full transition-all duration-300 ease-in-out relative `}
     >
-      <span className="text-3xl">{icon}</span>
-      <span className="text-xs">{label}</span>
+      <span className={`text-3xl flex flex-col items-center justify-center  ${
+        isActive
+          ? "bg-bgcolor  transform -translate-y-2 shadow-4xl absolute -top-6 rounded-full border-4 w-16 h-16"
+          : "text-white"}`}>{icon}</span>
+          <span className={`text-sm font-medium`}>{label}</span>
     </button>
+    
   </Link>
 );
 
@@ -22,7 +22,7 @@ const BottomNav = () => {
 
   return (
     <div className="bg-white w-full">
-      <nav className="bg-yellow-500  rounded-t-lg fixed bottom-0 w-full flex justify-around shadow-lg">
+      <nav className="bg-bgcolor  rounded-t-lg fixed bottom-0 w-full flex justify-around shadow-lg">
         <NavButton
           icon={<FaHome />}
           label="Asosiy"
