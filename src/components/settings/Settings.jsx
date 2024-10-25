@@ -11,7 +11,7 @@ import til from "../../assets/til.svg";
 import card from "../../assets/card.svg";
 import mavzu from "../../assets/mavzu.svg";
 import notif from "../../assets/Notif.svg";
-import MurojatModal from "./modal/MurojatMOdal";
+import MurojatModal from "./modal/MurojatModal";
 import ChatModal from "./modal/Chatmodal";
 import ContactsModal from "./modal/CallModal";
 import LogOutModal from "./modal/LogOutModal";

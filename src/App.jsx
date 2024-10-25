@@ -10,7 +10,7 @@ import Evakuvator from './components/pages/evakuvator/evakuvator';
 import Jarimalar from './components/pages/Jarimalar/Jarimalar';
 import CarDetails from './components/pages/avtamobilBolimi/abvtombilbolimi';
 import CarDetailingPage from './components/pages/avtamobilBolimi/qaytajixozlash';
-import JarimalarningIchi from './components/pages/jarimalar/JarimalarningIchi';
+import JarimalarningIchi from './components/pages/Jarimalar/JarimalarningIchi';
 
 import bg from "./assets/bg.png";
 
