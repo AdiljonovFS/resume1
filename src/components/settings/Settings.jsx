@@ -12,7 +12,7 @@ import card from "../../assets/card.svg";
 import mavzu from "../../assets/mavzu.svg";
 import notif from "../../assets/Notif.svg";
 import MurojatModal from "./modal/MurojatModal";
-import ChatModal from "./modal/Chatmodal";
+import ChatModal from "./modal/ChatModal";
 import ContactsModal from "./modal/CallModal";
 import LogOutModal from "./modal/LogOutModal";
 import LanguageModal from "./modal/LangugeModal";
