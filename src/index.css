@@ -24,3 +24,12 @@
   background-size: 10px 10px;
   background-position: 0 0, 0 5px, 5px -5px, -5px 0px;
 }
+::-webkit-scrollbar {
+  width: 0;  /* Chrome, Safari, and Opera */
+  height: 0; /* Horizontal scrollbars */
+}
+
+body {
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+  scrollbar-width: none;    /* Firefox */
+}
