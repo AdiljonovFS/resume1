@@ -5,13 +5,13 @@ import MainContent from './component/MainContent';
 
 function App() {
   return (
-    <div className="contaner max-h-max m-auto ">
+    <div className="container max-w-screen-xl mx-auto ">
       <Header />
-      <div className='flex min-h-screen bg-gray-100 px-20 pt-10'>
-      <Sidebar />
-      <MainContent />
+      <div className="flex flex-col md:flex-row min-h-screen bg-gray-950">
+        <Sidebar />
+        <MainContent />
       </div>
-     </div>
+    </div>
   );
 }
 

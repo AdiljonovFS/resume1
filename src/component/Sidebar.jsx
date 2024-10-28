@@ -1,6 +1,6 @@
 const Sidebar = () => {
   return (
-    <div className="bg-gray-800 text-white w-full md:w-1/4">
+    <div className="text-white w-full md:w-1/4 md:p-20 p-5">
       <h2 className="text-2xl font-bold mb-8">SKILLS</h2>
       <ul className="list-disc pl-5 space-y-2">
         <li>Html</li>
