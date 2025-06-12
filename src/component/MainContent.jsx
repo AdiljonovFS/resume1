@@ -35,10 +35,12 @@ const MainContent = () => {
 
       {/* About Me */}
       <Section title="ABOUT ME">
-        <p>
-          I am a beginner Frontend developer. It’s been 2 years since I started programming. 
-          During this time, I have built websites with my team. Currently, I am graduating 
-          from Astrum IT Academy, and my passion for programming is very high.
+        <p>I am a beginner Frontend developer. It has been 2 years since I started programming.
+          During this time, my team and I have created websites. 
+          4Currently, I have graduated from Astrum IT Academy and I am very passionate about programming. 
+          Therefore, I am quick-witted and inquisitive. I am constantly working on myself. Currently, 
+          I am studying in the 1st year of correspondence at Tashkent State Law University.
+          I am currently creating a DTM site and an online website for the school. The DTM site is exclusively for the school.
         </p>
       </Section>
 
