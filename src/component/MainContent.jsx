@@ -65,6 +65,7 @@ const MainContent = () => {
           <LinkItem href="https://movie-frontend-vite.vercel.app/" label="Demo Movie App" />
           <LinkItem href="https://adminpanel-woad.vercel.app/" label="Admin Panel (Edu API noConnection)" />
           <LinkItem href="https://boriga-baraka-vimv.vercel.app/" label="Boriga Baraka Admin Panel  (that is only used to get information)" />
+          <LinkItem href="https://my-way-demo-1.vercel.app/" label="MyWay (my-way demo version)" />
 {/*           <LinkItem href="https://uzgreenwall.uz/" label="UzGreenWall.uz" /> */}
         </ul>
       </Section>
