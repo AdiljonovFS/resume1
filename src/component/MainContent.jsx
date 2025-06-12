@@ -52,7 +52,7 @@ const MainContent = () => {
       {/* Experience */}
       <Section title="EXPERIENCE">
         <InfoItem title="Noxon FX Trading Community" description="2023 – 2024 | Frontend Developer" />
-        <InfoItem title="United Bridge" description="2024 – Present" />
+        <InfoItem title="United Bridge" description="2024 – 2025" />
         <p>
           My team and I at the NOXON FX trading community have developed a website and 
           we continue to improve it. My work here is remote.
